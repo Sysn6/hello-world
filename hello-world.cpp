@@ -1,6 +1,7 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    for (int i = 0; i < 1000; ++i) {
+        std::cout << "this is a test" << std::endl;
+    }
 }
